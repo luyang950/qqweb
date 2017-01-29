@@ -1,11 +1,9 @@
 package main
 
-import (
-	_ "qqweb/routers"
-	"github.com/astaxie/beego"
+import(
+	"fmt"
 )
 
 func main() {
-	beego.Run()
+	fmt.Println("hello")
 }
-
