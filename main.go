@@ -1,9 +1,9 @@
 package main
 
 import(
-	"fmt"
+	ctl "qqweb/controllers"
 )
 
 func main() {
-	fmt.Println("hello")
+	ctl.Login()
 }
